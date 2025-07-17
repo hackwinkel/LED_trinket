@@ -1,0 +1,136 @@
+(footprint "D_SOD-123"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD-123")
+	(tags "SOD-123")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_SOD-123"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "12459980-93ec-4d14-a5d8-25465bd8b01f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df2fb6c-9a01-450c-8dda-024b1c6ddfcc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "434b35bb-86e7-4a80-b86a-8dfd526da733")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.4 0) (xy 0.2 -0.4) (xy 0.2 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6222cd42-9f4c-46d8-bfb3-412e927bfd23")
+	)
+	(fp_line
+		(start -2.4 -0.7)
+		(end -2.4 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "a236d0bc-d46e-4b1b-8473-2e72a91c3672")
+	)
+	(fp_line
+		(start -2.4 -0.7)
+		(end 2.4 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "c310ea25-dbf8-44d7-bf6d-adacc8d427b7")
+	)
+	(fp_line
+		(start -2.4 0.7)
+		(end 2.4 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "40cf9c9f-821f-459e-b082-d266ed8e7986")
+	)
+	(fp_line
+		(start 2.4 -0.7)
+		(end 2.4 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "fa117fb8-70c5-4d16-8d19-45f23ee30fa3")
+	)
+	(pad "1" smd roundrect
+		(at -1.65 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8ca7cf40-9887-436c-bea9-a303f4626eef")
+	)
+	(pad "2" smd roundrect
+		(at 1.65 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6df6f7bc-2215-4f91-8920-244285a2df55")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

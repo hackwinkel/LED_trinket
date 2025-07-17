@@ -1,0 +1,134 @@
+(footprint "D_2835"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a44f196e-f214-4ebd-bcd6-de0634f0d4b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_2835"
+		(at 0 2.475 0)
+		(layer "F.Fab")
+		(uuid "db86b06b-11a0-47ba-b8bd-95afe01b433f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "635c79f3-e10b-4b1c-90ab-31ba5c42e780")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d688324-ac47-433f-b5e2-16c5ed979f66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.35 0) (xy 0.25 -0.4) (xy 0.25 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bcb9748a-10ba-40f2-8399-429bafba1e5f")
+	)
+	(fp_line
+		(start -2.4 -1.2)
+		(end -2.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "42702f83-ca80-4bfe-962b-c8313aa7455c")
+	)
+	(fp_line
+		(start -2.4 -1.2)
+		(end 2.4 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "ad36361c-c698-4af4-a549-7d2ef5602bb1")
+	)
+	(fp_line
+		(start -2.4 1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "3f2079d7-0646-4ec0-85cd-033d84a2f8ef")
+	)
+	(fp_line
+		(start 2.4 -1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "c96c4ba2-2bb4-4516-bd98-33893866978a")
+	)
+	(pad "1" smd rect
+		(at -1.525 0)
+		(size 1.55 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c9c82bf-eddf-4ce8-a63d-09a09d9dffe8")
+	)
+	(pad "2" smd rect
+		(at 1.525 0)
+		(size 1.55 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c449f5b-fd21-40d4-ab2b-8f6c936b78fc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
